@@ -11,10 +11,16 @@ Run it at http://localhost:3000/:
 npx simple-file-transfer
 ```
 
-Send content to http://localhost:3000/:
+Send "Some content" to http://localhost:3000/:
 
 ```
-curl -X POST -H "Content-Type: text/plain" --data-binary "Some content" http://localhost:3000/
+curl -X POST -H "Content-Type: text/plain" "Some content" http://localhost:3000/
+```
+
+Or send a file `path/to/your/file.txt` to http://localhost:3000/:
+
+```
+curl -X POST -H "Content-Type: text/plain" --data-binary @path/to/your/file.txt http://localhost:3000/
 ```
 
 The content will be writen to `output.txt`.
