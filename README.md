@@ -8,7 +8,8 @@ Usage:
 Run it at http://localhost:3000/:
 
 ```
-npx simple-file-transfer
+$ npx simple-file-transfer
+Server is running on port 3000
 ```
 
 Send "Some content" to http://localhost:3000/:
