@@ -15,7 +15,7 @@ Server is running on port 3000
 Send "Some content" to http://localhost:3000/:
 
 ```
-curl -X POST -H "Content-Type: text/plain" "Some content" http://localhost:3000/
+curl -X POST -H "Content-Type: text/plain" --data-binary "Some content" http://localhost:3000/
 ```
 
 Or send a file `path/to/your/file.txt` to http://localhost:3000/:
