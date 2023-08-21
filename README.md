@@ -2,6 +2,10 @@
 
 A simple way to transfer content through HTTP into a file at the receiving end.
 
+Requirements
+
+Node, npm.
+
 Usage:
 
 
@@ -25,3 +29,4 @@ curl -X POST -H "Content-Type: text/plain" --data-binary @path/to/your/file.txt 
 ```
 
 The content will be writen to `output.txt`.
+
