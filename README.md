@@ -2,11 +2,11 @@
 
 A simple way to transfer content through HTTP into a file at the receiving end.
 
-Requirements
+## Requirements
 
 Node, npm.
 
-Usage:
+## Usage:
 
 
 Run it at http://localhost:3000/:
