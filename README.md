@@ -30,3 +30,6 @@ curl -X POST -H "Content-Type: text/plain" --data-binary @path/to/your/file.txt 
 
 The content will be writen to `output.txt`.
 
+## Check this out too
+
+https://aamu.app/
